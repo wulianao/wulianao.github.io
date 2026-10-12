@@ -1,47 +1,210 @@
 <!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>wulianao — deepmind</title>
-  <meta name="description" content="Personal site of wulianao — deepmind">
-  <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-  <main class="wrap">
-    <header class="hero">
-      <div class="avatar">W</div>
-      <div>
-        <h1>wulianao</h1>
-        <p class="lead">deepmind</p>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="wulianao personal landing page and portfolio" />
+    <title>wulianao | deepmind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <header class="topbar">
+      <div class="brand">wulianao</div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
-    <section class="section">
-      <h2>Projects</h2>
-      <ul class="projects">
-        <li>
-          <a href="#">示例项目 • Project Alpha</a>
-          <p class="muted">项目简介：简短描述，用以替换为你的真实项目。</p>
-        </li>
-        <li>
-          <a href="#">示例项目 • Project Beta</a>
-          <p class="muted">项目简介：简短描述，用以替换为你的真实项目。</p>
-        </li>
-      </ul>
-    </section>
+    <main class="container">
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Personal Portfolio</p>
+          <h1>wulianao</h1>
+          <p class="lead">deepmind</p>
+          <p class="summary">
+            I build thoughtful systems at the intersection of intelligence, product, and experimentation.
+            This portfolio showcases selected work, skills, and a short journey of learning and building.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/wulianao" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://x.com" target="_blank" rel="noreferrer">X / Twitter</a>
+            <a href="mailto:hello@wulianao.dev">Email</a>
+          </div>
+        </div>
 
-    <section class="section">
-      <h2>Contact</h2>
-      <ul class="contact">
-        <li>GitHub: <a href="https://github.com/wulianao">@wulianao</a></li>
-        <li>Email: (add your email in <code>index.html</code>)</li>
-      </ul>
-    </section>
+        <div class="hero-visual reveal">
+          <div class="photo-card">
+            <img src="https://github.com/wulianao.png" alt="wulianao profile" />
+          </div>
+        </div>
+      </section>
 
-    <footer class="footer muted">
-      <p>此页面由 GitHub Pages 托管 — 仓库：<a href="https://github.com/wulianao/wulianao.github.io">wulianao/wulianao.github.io</a></p>
-    </footer>
-  </main>
-</body>
+      <section id="about" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>About me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="glass">
+            <p>
+              I am a builder focused on creating clean, effective, and high-impact digital experiences.
+              My work spans product thinking, experimentation, and technical execution — with a strong interest in AI, systems, and design-driven development.
+            </p>
+          </div>
+          <div class="glass stats">
+            <div>
+              <strong>5+</strong>
+              <span>Years exploring tech</span>
+            </div>
+            <div>
+              <strong>10+</strong>
+              <span>Side projects / experiments</span>
+            </div>
+            <div>
+              <strong>∞</strong>
+              <span>Curiosity & iteration</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card glass">
+            <div class="project-top">
+              <span class="tag">AI</span>
+              <span class="year">2025</span>
+            </div>
+            <h3>Project One</h3>
+            <p>Placeholder project description: a smart workflow or AI-driven product prototype focused on practical impact and clean UX.</p>
+            <ul>
+              <li>Python</li>
+              <li>ML</li>
+              <li>Product Design</li>
+            </ul>
+            <a href="https://github.com/wulianao" target="_blank" rel="noreferrer">View project →</a>
+          </article>
+
+          <article class="project-card glass">
+            <div class="project-top">
+              <span class="tag">System</span>
+              <span class="year">2024</span>
+            </div>
+            <h3>Project Two</h3>
+            <p>Placeholder project description: a tooling, analytics, or automation system designed to improve workflows and decision-making.</p>
+            <ul>
+              <li>JavaScript</li>
+              <li>APIs</li>
+              <li>Data</li>
+            </ul>
+            <a href="https://github.com/wulianao" target="_blank" rel="noreferrer">View project →</a>
+          </article>
+
+          <article class="project-card glass">
+            <div class="project-top">
+              <span class="tag">UX</span>
+              <span class="year">2023</span>
+            </div>
+            <h3>Project Three</h3>
+            <p>Placeholder project description: a polished digital experience or interface prototype with a focus on clarity and interaction quality.</p>
+            <ul>
+              <li>Design</li>
+              <li>Frontend</li>
+              <li>Interaction</li>
+            </ul>
+            <a href="https://github.com/wulianao" target="_blank" rel="noreferrer">View project →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Capabilities</h2>
+        </div>
+        <div class="skill-cloud">
+          <span>Python</span>
+          <span>JavaScript</span>
+          <span>TypeScript</span>
+          <span>HTML / CSS</span>
+          <span>React</span>
+          <span>AI / ML</span>
+          <span>Product Thinking</span>
+          <span>UX Research</span>
+          <span>Data</span>
+          <span>Automation</span>
+          <span>System Design</span>
+          <span>Experimentation</span>
+        </div>
+      </section>
+
+      <section id="timeline" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Timeline</p>
+          <h2>Learning and growth</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item glass">
+            <div class="time">2025</div>
+            <div class="content">
+              <h3>Exploring advanced AI workflows</h3>
+              <p>Building research-oriented prototypes and experimentation loops around intelligence and product utility.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item glass">
+            <div class="time">2024</div>
+            <div class="content">
+              <h3>Focused on product and systems</h3>
+              <p>Shifting toward more structured product thinking, cleaner interfaces, and end-to-end execution.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item glass">
+            <div class="time">2023</div>
+            <div class="content">
+              <h3>Building projects and refining craft</h3>
+              <p>Creating experiments and portfolios to sharpen both technical depth and design sensibility.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s connect</h2>
+        </div>
+        <div class="contact-box glass">
+          <p>Email: <a href="mailto:hello@wulianao.dev">hello@wulianao.dev</a></p>
+          <p>GitHub: <a href="https://github.com/wulianao" target="_blank" rel="noreferrer">@wulianao</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">linkedin.com/in/placeholder</a></p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
+
